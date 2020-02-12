@@ -10,6 +10,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="./_css/style_nav.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
 
 </head>
 
@@ -29,16 +30,28 @@
     </nav>
     <div class="search">
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#news">News</a></li>
-            <li class="dropdown">
-              <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-              <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-              </div>
-            </li>
+            <div class="left">
+                <li><a href="http://www.moovin.com.br/" target="_blanck"><img src="img/logo.svg" style="width:139px;height:50px;"></a></li>
+            </div>
+            <div class="center">
+                <li><input type="text" id="myInput" placeholder="O que você está procurando?"></li>
+            </div>
+            <div class="right">
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn"><b>Entrar</b><img src="img/chevron-down.svg" style="width:7px;height:4px;"></a>
+                    <div class="dropdown-content">
+                        <a href="#"><b>Minha conta</b></a>
+                        <a href="#">Meus pedidos</a>
+                        <a href="#">Lista de desejos</a>
+                    </div>
+                </li>
+            </div>
+            <div class="right-final">
+                <li><a href="#"><img src="img/Path 1.svg" style="width:24px;height:27px;"></a></li>
+                <div class="notifications">
+                    <a href="#">+50</a>
+                </div>
+            </div>
           </ul>
     </div>
 </body>
